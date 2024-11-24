@@ -1,3 +1,6 @@
+format:
+	gofmt -s -w ./
+
 build:
 	go build -o bin/main main.go
 
